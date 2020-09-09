@@ -1,7 +1,7 @@
 import React from "react";
 import "./Nav.css";
 import menu from "./menu.png";
-import Logo from "./Logo (2).png";
+import Logo from "./Logo.png";
 const Nav = () => {
   return (
     <div>
