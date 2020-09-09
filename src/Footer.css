@@ -1,0 +1,22 @@
+.SocialMedia img {
+  height: 50px;
+  width: 50px;
+  padding: 10px;
+}
+.SocialMedia {
+  position: fixed;
+  bottom: 0;
+  right: 100px;
+}
+.Footer {
+  opacity: 50%;
+  border-top: 1px solid black;
+  width: 100%;
+}
+.FooterText {
+  opacity: 50%;
+  text-align: center;
+  width: 50%;
+  padding: 20px;
+  bottom: 0;
+}

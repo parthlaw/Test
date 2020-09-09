@@ -1,0 +1,62 @@
+.Galary {
+  display: flex;
+  width: 100%;
+  height: 400px;
+  justify-content: center;
+  animation: change 10s linear infinite;
+}
+.HomeContent {
+  position: relative;
+  width: 100%;
+  background-color: coral;
+  color: aliceblue;
+  text-align: center;
+}
+.HomeText {
+  margin-top: 50px;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.cont1 {
+  width: 30%;
+  text-align: center;
+  border-left: 1px solid rgb(224, 223, 223);
+}
+.cont1 p {
+  position: relative;
+  color: rgb(146, 148, 150);
+}
+.cont p {
+  position: relative;
+  color: rgb(146, 148, 150);
+}
+.cont {
+  width: 30%;
+  text-align: center;
+}
+@keyframes change {
+  0% {
+    background: url(./Image2.jfif);
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  50% {
+    background: url(./Image3.jfif);
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  100% {
+    background: url(./Image1.jfif);
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+}
+.Main {
+  width: 100%;
+  height: 500px;
+}
+h3 {
+  color: coral;
+}
